@@ -1,25 +1,36 @@
 # SDR Pipeline Calculator
 
-A React-based calculator to reverse-engineer meeting requirements based on revenue targets for SDR teams.
+A self-contained interactive calculator for SDR pipeline metrics and forecasting.
+
+## Deployment
+
+This calculator is a single HTML file with all dependencies loaded via CDN. No build process required.
+
+### To host publicly:
+
+1. Upload `index.html` to any static hosting service:
+   - GitHub Pages
+   - Netlify
+   - Vercel
+   - AWS S3
+   - Any web server
+
+2. Access the file directly in a browser
 
 ## Features
 
-- Calculate total meetings needed based on revenue targets
-- Track meeting delta compared to last year's baseline
-- Visual breakdown of pipeline metrics
-- Interactive formula breakdown showing all calculations
+- Real-time pipeline calculations
+- Interactive input controls
+- SDR performance metrics
+- Revenue forecasting
+- Qualification rate analysis
 
-## Variables
+## Technologies
 
-- Number of SDRs
-- Target Revenue per SDR
-- Pipeline Multiplier
-- Average Selling Price (ASP)
-- Qualification Rate
-- Last Year's Meetings
+- React 18 (via CDN)
+- Tailwind CSS (via CDN)
+- Babel Standalone (for in-browser JSX compilation)
 
-## Tech Stack
+## Usage
 
-- React
-- Lucide React (icons)
-- Tailwind CSS
+Simply open `index.html` in any modern web browser.
